@@ -1,2 +1,2 @@
 # UI-figma-html
-This repo for UI (User Interface) examples in that I added figma desings with code
+This repository contains UI (User Interface) examples with Figma designs and corresponding HTML and CSS code, making it easy for you to create your own designs with code.
