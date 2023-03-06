@@ -10,3 +10,55 @@ body{
         #d2c0c0 120.52%
         );   
 }
+
+.nev-items .nev-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 50px;
+    /* gap: 10px; */
+    
+    width: 50px;
+    height: 15px;
+
+    background: #2c2220;
+    border-radius: 50px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.hero{
+    position: absolute;
+    width: 590px;
+    height: 113px;
+    left: 144px;
+    top: 182px;
+}
+
+.heading{
+    font-family: 'Italiana', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 113px;
+    text-transform: capitalize;
+    color: #691f0d;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 129.3%;
+    letter-spacing: 0.07em;
+    text-transform: capitalize;
+    color: #2c2220;
+}
+
+.ctc-btn{
+    
+}
