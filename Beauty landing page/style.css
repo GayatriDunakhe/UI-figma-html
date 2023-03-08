@@ -49,3 +49,24 @@ body{
 
     color: #2c2220;
 }
+
+.ctc-btn{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 50px;
+    /* gap: 10px; */
+    
+    width: 100px;
+    height: 15px;
+
+    background: #2c2220;
+    border-radius: 50px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #fff;
+}
