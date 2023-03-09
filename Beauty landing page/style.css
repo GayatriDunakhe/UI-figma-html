@@ -1,6 +1,7 @@
 *{
     top: 0%;
     position: relative;
+    font-family: 'Imprima', sans-serif;
 }
 
 body{
@@ -11,14 +12,51 @@ body{
         );   
 }
 
-.nev-items .nev-btn{
+.nev{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 15px 50px;
+    align-items: center;
+    padding: 0%;
+    gap: 758px;
+    /* border: 1px red solid; */
+}
+
+.nev .logo{
+    font-family: 'Italiana', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #2c2220;
+}
+
+.nev-items, .nev-items ul{
+    list-style: none;
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 57px;
+}
+
+.nev-items ul li{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+
+    color: #2c2220;
+}
+
+.nev-items .nev-btn{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
     /* gap: 10px; */
     
-    width: 50px;
+    width: auto;
     height: 15px;
 
     background: #2c2220;
