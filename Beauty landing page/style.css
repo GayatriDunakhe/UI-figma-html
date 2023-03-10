@@ -74,11 +74,16 @@ body{
 }
 
 .hero{
+    display: flex; 
+    flex-direction: column;
+    align-items: self-start;
+    
     position: absolute;
     width: 590px;
     height: 113px;
     left: 144px;
     top: 182px;
+    gap: 25px;
 }
 
 .heading{
