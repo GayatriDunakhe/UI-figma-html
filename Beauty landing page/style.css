@@ -50,14 +50,13 @@ body{
     color: #2c2220;
 }
 
-.ctc-btn{
-    display: flex; 
-    flex-direction: row;
+.nev-items .nev-btn{
+    display: flex;
     align-items: center;
-    padding: 15px 50px;
+    padding: 15px 20px;
     /* gap: 10px; */
     
-    width: 100px;
+    width: auto;
     height: 15px;
 
     background: #2c2220;
@@ -70,3 +69,41 @@ body{
     text-transform: uppercase;
     color: #fff;
 }
+
+.hero{
+    position: absolute;
+    width: 590px;
+    height: 113px;
+    left: 144px;
+    top: 182px;
+}
+
+.heading{
+    font-family: 'Italiana', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 113px;
+    text-transform: capitalize;
+    color: #691f0d;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 129.3%;
+    letter-spacing: 0.07em;
+    text-transform: capitalize;
+    color: #2c2220;
+}
+
+.ctc-btn{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 50px;
+    /* gap: 10px; */
+    
+    width: 100px;
+}
+
