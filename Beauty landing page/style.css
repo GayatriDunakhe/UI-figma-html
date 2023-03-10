@@ -98,5 +98,12 @@ body{
 }
 
 .ctc-btn{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 50px;
+    /* gap: 10px; */
     
+    width: 100px;
 }
+
