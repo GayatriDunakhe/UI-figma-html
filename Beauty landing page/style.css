@@ -8,22 +8,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-/*     background-image: linear-gradient(
-        154.12deg,
-        #d5c5c6 -4.49%,
-        #d2c0c0 120.52%
-        );    */
-    
-    background: url(imgs/bg.jpg) fixed no-repeat; */
-    background-size: 55%;
-    background-position-x: right; 
-    
-    background: url(imgs/bg.jpg), 
-    linear-gradient(
-        154.12deg,
-        #d5c5c6 -4.49%,
-        #d2c0c0 120.52%,
-    );
+
+    background-image: url('imgs/bg.jpg');
+    background-size: cover;
 }
 
 .nev{
@@ -132,4 +119,12 @@ body{
     height: 26px;
     left: 20px;
     top: 650px;
+}
+
+.nev-btn:hover, .ctc-btn:hover{
+    background: #691f0d;
+}
+
+.nev-items ul li:hover{
+    color: #691f0d;
 }
