@@ -4,6 +4,8 @@
     font-family: 'Imprima', sans-serif;
 }
 
+/* ==================================================Body==================================================================== */
+
 body{
     display: flex;
     flex-direction: column;
@@ -11,7 +13,15 @@ body{
 
     background-image: url('imgs/bg.jpg');
     background-size: cover;
+    background-attachment: fixed;
+} 
+
+a{
+    text-decoration: none;
+    color: #fff;
 }
+
+/* ==================================================Nevigation==================================================================== */
 
 .nev{
     display: flex;
@@ -28,6 +38,7 @@ body{
     font-weight: 400;
     font-size: 40px;
     line-height: 47px;
+    /* left: 40px; */
 
     color: #2c2220;
 }
@@ -39,10 +50,12 @@ body{
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 57px;
+    gap: 40px;
 }
 
 .nev-items ul li{
+    display: inline-block;
+    position: relative;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -55,7 +68,6 @@ body{
     display: flex;
     align-items: center;
     padding: 15px 20px;
-    /* gap: 10px; */
     
     width: auto;
     height: 15px;
@@ -64,22 +76,24 @@ body{
     border-radius: 50px;
 
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 200;
+    font-size: 16px;
     line-height: 23px;
     text-transform: uppercase;
-    color: #fff;
+    /* color: #fff; */
 }
+
+/* ==================================================Hero Section==================================================================== */
 
 .hero{
     display: flex; 
     flex-direction: column;
     align-items: self-start;
-    
+
     position: absolute;
     width: 590px;
     height: 113px;
-    left: 144px;
+    left: 50px;
     top: 182px;
     gap: 25px;
 }
@@ -109,22 +123,56 @@ body{
     align-items: center;
     padding: 15px 50px;
     /* gap: 10px; */
-    
+
     width: auto;
+    height: 15px;
+
+    background: #2c2220;
+    border-radius: 50px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    /* color: #fff; */
 }
+
+/* ==================================================Footer==================================================================== */
 
 .footer{
     position: absolute;
     width: 162px;
     height: 26px;
-    left: 20px;
+    left: 50px;
     top: 650px;
 }
+
+/* ==================================================Hovers==================================================================== */
 
 .nev-btn:hover, .ctc-btn:hover{
     background: #691f0d;
 }
 
-.nev-items ul li:hover{
+/* .nev-items ul li:hover{
     color: #691f0d;
+    text-decoration: underline;
+} */
+
+.nev-items ul li::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #691f0d;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nev-items ul li:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
