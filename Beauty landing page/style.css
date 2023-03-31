@@ -7,14 +7,17 @@
 /* ==================================================Body==================================================================== */
 
 body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
     background-image: url('imgs/bg.jpg');
     background-size: cover;
     background-attachment: fixed;
 } 
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
 
 a{
     text-decoration: none;
@@ -27,8 +30,8 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0%;
-    gap: 758px;
+    padding: 12px;
+    gap: 725px;
     /* border: 1px red solid; */
 }
 
@@ -144,7 +147,7 @@ a{
     position: absolute;
     width: 162px;
     height: 26px;
-    left: 50px;
+    left: 12px;
     top: 650px;
 }
 
