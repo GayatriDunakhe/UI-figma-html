@@ -159,7 +159,7 @@ a{
     text-decoration: underline;
 } */
 
-.nev-items ul li::after{
+.nev-hover::after{
     content: '';
     position: absolute;
     width: 100%;
@@ -172,7 +172,7 @@ a{
     transition: transform 0.25s ease-out;
 }
 
-.nev-items ul li:hover::after{
+.nev-hover:hover::after{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
